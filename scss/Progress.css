@@ -1,0 +1,16 @@
+/* scss/progress.scss */
+.progress {
+  height: 20px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress .progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}/*# sourceMappingURL=Progress.css.map */

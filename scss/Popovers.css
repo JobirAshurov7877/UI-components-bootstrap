@@ -1,0 +1,40 @@
+/* scss/popovers.scss */
+.pu__popover__box {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 200px;
+  z-index: 9999;
+  border-radius: 4px;
+}
+.pu__popover__box.active {
+  display: block;
+}
+
+.pu__popover__title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.pu__popover__content {
+  color: #333;
+  min-width: 150px;
+  margin-top: 5px;
+}
+
+.pu__popover__button {
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  transition: background-color 0.3s ease;
+}
+.pu__popover__button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=Popovers.css.map */

@@ -1,0 +1,33 @@
+@import "style.scss";
+
+.pu__pagination {
+     display: flex;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+
+     .pu__pagination__page__item {
+          display: inline;
+          margin: 0 4px;
+
+          a.pu__pagination__page__link {
+               display: block;
+
+               text-align: center;
+               border: 1px solid #dee2e6;
+               color: $secondary;
+               text-decoration: none;
+               border-radius: 2px;
+
+               &:hover {
+                    background-color: #f8f9fa;
+               }
+
+               &.active {
+                    border: 2px solid $primary;
+
+               }
+          }
+
+     }
+}
